@@ -1,0 +1,52 @@
+@import "./colors";
+@import "./AppBar";
+@import "TaskManagementComponent";
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+.subunit-boundary {
+  fill: none;
+  stroke: #777;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+
+.place,
+.place-label {
+  fill: red;
+}
+
+.header_title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  pointer-events: none;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.legend-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  pointer-events: none;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 18px;
+  padding: 2px;
+  font: 10px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+
