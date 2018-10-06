@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.task.es</groupId>
+        <artifactId>task-managment</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    
+    <artifactId>task-dao</artifactId>
+    <packaging>jar</packaging>
+    
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    
+        <!-- Module dependencies -->
+    <dependencies>
+        <dependency>
+            <groupId>com.task.es</groupId>
+            <artifactId>task-domain</artifactId>
+        </dependency>
+             
+        <!-- External -->
+        <dependency>
+            <groupId>org.mongodb.morphia</groupId>
+            <artifactId>morphia</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.powermock/powermock-module-junit4 -->
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-module-junit4</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.powermock/powermock-api-mockito -->
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-api-mockito</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.powermock/powermock-api-easymock -->
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-api-easymock</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.powermock/powermock-core -->
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-core</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.easymock/easymock -->
+        <dependency>
+            <groupId>org.easymock</groupId>
+            <artifactId>easymock</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.powermock/powermock-reflect -->
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-reflect</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.powermock/powermock-module-junit4-rule -->
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-module-junit4-rule</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-all</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- JAVA EE API -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+        </dependency>     
+    </dependencies>
+</project>
